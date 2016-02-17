@@ -35,8 +35,7 @@ public class JDBCExample {
         try {
 
             connection = DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5432/postgres", "postgres",
-                    "pg");
+                    "jdbc:postgresql://localhost:5432/postgres", "postgres", "pg");
 
         } catch (SQLException e) {
 
